@@ -48,7 +48,7 @@ The original YOLOv8 Instance Segmentation model can be found in this repository:
  ```
  python video_instance_segmentation.py
  ```
- ![!YOLOv8 instance segmentation video](https://github.com/ibaiGorordo/ONNX-YOLOv5-Instance-Segmentation/blob/main/doc/img/video_yolov8_segmentation.gif)
+ ![!YOLOv8 instance segmentation video](https://github.com/ibaiGorordo/ONNX-YOLOv8-Instance-Segmentation/blob/main/doc/img/video_yolov8_segmentation.gif)
   *Original video: https://youtu.be/-bhSSispEcg*
 
 # References:
