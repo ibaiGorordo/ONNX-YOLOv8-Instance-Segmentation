@@ -67,7 +67,7 @@ class YOLOSeg:
         num_classes = box_output.shape[1] - self.num_masks - 4
 
         # Filter out object confidence scores below threshold
-        scores = np.max(predictions[:, 4:num_classes], axis=1)
+        scores = np.max(predictions[:, 4:4+num_classes], axis=1)
         predictions = predictions[scores > self.conf_threshold, :]
         scores = scores[scores > self.conf_threshold]
 
